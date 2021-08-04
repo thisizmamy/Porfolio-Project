@@ -96,6 +96,7 @@ input[class^="btn-"]:hover {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
 
 .item {
+  margin: 8px;
   position: relative;
   background: #ffbc00;
   overflow: hidden; }
