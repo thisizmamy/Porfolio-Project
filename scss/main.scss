@@ -233,6 +233,10 @@ img {
             grid-area: bio;
             border-left: 3px solid $main-color;
             padding: 0.8rem;
+
+            p {
+                text-align: justify;
+            }
         }
 
         .award-1 {
@@ -302,6 +306,7 @@ img {
                 border: 1px solid $medium-color;
                 border-radius: 5px;
                 padding: 0.5rem;
+                padding-bottom: 50px;
             }
 
             img {

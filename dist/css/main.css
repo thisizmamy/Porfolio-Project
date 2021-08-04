@@ -314,6 +314,8 @@ img {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
   padding: 0.8rem; }
+  #about-a .bio p {
+    text-align: justify; }
 
 #about-a .award-1 {
   grid-area: aw1; }
@@ -361,7 +363,8 @@ img {
   #about-d .testimonials p {
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 0.5rem; }
+    padding: 0.5rem;
+    padding-bottom: 50px; }
   #about-d .testimonials img {
     width: 50px;
     height: 50px;
