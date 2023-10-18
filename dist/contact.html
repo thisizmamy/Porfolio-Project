@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/71a9be165f.js" crossorigin="anonymous"></script>
+    <title>Mohammad Golzar | Contact Me</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="img/logo.png" alt="My Porfolio" id="logo" />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li>
+              <a href="contact.html" class="current">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section A: Contact Form -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Here is how you can reach me</p>
+        <form action="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input type="text" placeholder="Name" class="text-input name-input" name="name" />
+            <input type="text" placeholder="Subject" class="text-input subject-input" name="subject" />
+            <input type="email" placeholder="Email Adress" class="text-input email-input" name="email" />
+            <input type="number" placeholder="Phone Number" class="text-input phone-input" name="phone" />
+            <textarea placeholder="Enter Message" class="text-input message-input" name="message"></textarea>
+
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button type="submit" class="btn-dark">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Section B: Contact Info -->
+    <section id="contact-b" class="py-3 bg-dark">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>Mohamad.golzar1992@gmail.com</p>
+          </div>
+
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Phone</h3>
+            <p>(+98) 911-385-8249</p>
+          </div>
+
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>Address</h3>
+            <p>Guilan, Sowmehsara</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section C: Tagline -->
+    <section id="contact-c" class="py-4 bg-main text-center">
+      <div class="container">
+        <h1>Let's Start Your Next Project</h1>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy;. 2023 All Rights Reserved</p>
+        <div class="social">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-telegram"></i>
+          <i class="fab fa-whatsapp"></i>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.querySelector(".fa-linkedin").addEventListener("click", (e) => {
+        e.preventDefault();
+        window.open("https://www.linkedin.com/in/mohammad-reza-golzar-5ba0a4193/", "_blank");
+      });
+
+      document.querySelector(".fa-twitter").addEventListener("click", (e) => {
+        e.preventDefault();
+        window.open("https://twitter.com/Mohamma65751925", "_blank");
+      });
+      document.querySelector(".fa-instagram").addEventListener("click", (e) => {
+        e.preventDefault();
+        window.open("https://www.instagram.com/thisizmamy", "_blank");
+      });
+      document.querySelector(".fa-telegram").addEventListener("click", (e) => {
+        e.preventDefault();
+        window.open("https://t.me/MGolzar1992", "_blank");
+      });
+      document.querySelector(".fa-whatsapp").addEventListener("click", (e) => {
+        e.preventDefault();
+        window.open("https://wa.me/989113858249?text=Hey, What's up? I'm contacting you because ...", "_blank");
+      });
+    </script>
+  </body>
+</html>
